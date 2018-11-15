@@ -1,0 +1,54 @@
+---
+title: R Markdown Page
+output:
+  blogdown::html_page:
+    toc: true
+
+date: 2018-09-09T00:00:00.000Z
+lastmod: 2018-09-09T00:00:00.000Z
+
+draft: false
+type: docs
+
+linktitle: R Markdown Example Testing TOC
+menu:
+  docs:
+    parent: Example Topic
+    weight: 2
+---
+
+
+<div id="TOC">
+<ul>
+<li><a href="#help">help</a><ul>
+<li><a href="#me">me</a></li>
+</ul></li>
+<li><a href="#use-this">use this!</a></li>
+</ul>
+</div>
+
+<p>This page provides an example of using R Markdown.</p>
+<pre class="r"><code>x &lt;- 1:10
+y &lt;- round(rnorm(10, x, 1), 2)
+df &lt;- data.frame(x, y)
+df</code></pre>
+<pre><code>##     x    y
+## 1   1 1.84
+## 2   2 3.06
+## 3   3 1.92
+## 4   4 4.33
+## 5   5 4.62
+## 6   6 5.67
+## 7   7 4.12
+## 8   8 8.05
+## 9   9 7.79
+## 10 10 9.02</code></pre>
+<div id="help" class="section level1">
+<h1>help</h1>
+<div id="me" class="section level2">
+<h2>me</h2>
+</div>
+</div>
+<div id="use-this" class="section level1">
+<h1>use this!</h1>
+</div>
